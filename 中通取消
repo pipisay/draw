@@ -1,22 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T11:12:08.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="UFhGrZ5LIkzxxa1RiLIQ" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T11:37:12.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="qV7e9ZkfaVJa-DU8hkSN" version="21.0.6" type="github">
   <diagram name="第 1 页" id="OULYBR7QGxHnhnLEJ_Vc">
     <mxGraphModel dx="3934" dy="2364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-3" value="TMS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#FFCCCC;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-28" value="结果：&lt;br&gt;鉴权失败或&lt;br&gt;系统异常" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=40;fillColor=#FFFFCC;" parent="1" vertex="1">
+          <mxGeometry x="-900" y="-1100" width="790" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-3" value="TMS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="-780" y="-1580" width="100" height="1060" as="geometry" />
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-4" value="发起取消" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="TaA40GRXiTKMvjv4MpcQ-3">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-4" value="发起取消" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="TaA40GRXiTKMvjv4MpcQ-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-15" y="70" as="sourcePoint" />
             <mxPoint x="45" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="TaA40GRXiTKMvjv4MpcQ-3">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="TaA40GRXiTKMvjv4MpcQ-3" vertex="1">
           <mxGeometry x="45" y="90" width="10" height="900" as="geometry" />
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-6" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="TaA40GRXiTKMvjv4MpcQ-3" source="TaA40GRXiTKMvjv4MpcQ-5" target="TaA40GRXiTKMvjv4MpcQ-5">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-6" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="TaA40GRXiTKMvjv4MpcQ-3" source="TaA40GRXiTKMvjv4MpcQ-5" target="TaA40GRXiTKMvjv4MpcQ-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="110" y="220" as="sourcePoint" />
             <mxPoint x="160" y="170" as="targetPoint" />
@@ -26,12 +29,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-7" value="返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TaA40GRXiTKMvjv4MpcQ-6">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-7" value="返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TaA40GRXiTKMvjv4MpcQ-6" vertex="1" connectable="0">
           <mxGeometry x="0.04" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-10" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="TaA40GRXiTKMvjv4MpcQ-3" target="TaA40GRXiTKMvjv4MpcQ-5">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-10" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="TaA40GRXiTKMvjv4MpcQ-3" target="TaA40GRXiTKMvjv4MpcQ-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="55" y="560" as="sourcePoint" />
             <mxPoint x="55" y="610" as="targetPoint" />
@@ -42,36 +45,36 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-11" value="解析取消结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TaA40GRXiTKMvjv4MpcQ-10">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-11" value="解析取消结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TaA40GRXiTKMvjv4MpcQ-10" vertex="1" connectable="0">
           <mxGeometry x="-0.2167" y="-1" relative="1" as="geometry">
             <mxPoint x="44" y="-42" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-12" value="快手" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=label;fillColor=#FFCE9F;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-12" value="快手" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=label;fillColor=#FFCE9F;" parent="1" vertex="1">
           <mxGeometry x="-430" y="-1580" width="100" height="1060" as="geometry" />
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="TaA40GRXiTKMvjv4MpcQ-12">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="TaA40GRXiTKMvjv4MpcQ-12" vertex="1">
           <mxGeometry x="45" y="330" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-14" value="mysql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#E6FFCC;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-14" value="mysql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#E6FFCC;" parent="1" vertex="1">
           <mxGeometry x="-610" y="-1580" width="100" height="1060" as="geometry" />
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="TaA40GRXiTKMvjv4MpcQ-14">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;" parent="TaA40GRXiTKMvjv4MpcQ-14" vertex="1">
           <mxGeometry x="45" y="100" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="TaA40GRXiTKMvjv4MpcQ-14">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="TaA40GRXiTKMvjv4MpcQ-14" vertex="1">
           <mxGeometry x="45" y="780" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="TaA40GRXiTKMvjv4MpcQ-14">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="TaA40GRXiTKMvjv4MpcQ-14" vertex="1">
           <mxGeometry x="45" y="490" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-17" value="oms" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#99CCFF;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-17" value="oms" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#99CCFF;" parent="1" vertex="1">
           <mxGeometry x="-250" y="-1580" width="100" height="1060" as="geometry" />
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="TaA40GRXiTKMvjv4MpcQ-17">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="TaA40GRXiTKMvjv4MpcQ-17" vertex="1">
           <mxGeometry x="45" y="940" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="TaA40GRXiTKMvjv4MpcQ-5" target="TaA40GRXiTKMvjv4MpcQ-15">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="TaA40GRXiTKMvjv4MpcQ-5" target="TaA40GRXiTKMvjv4MpcQ-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-680" y="-1440" as="sourcePoint" />
             <mxPoint x="-630" y="-1490" as="targetPoint" />
@@ -80,12 +83,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-20" value="根据订单号&lt;br&gt;查询运单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TaA40GRXiTKMvjv4MpcQ-19">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-20" value="根据订单号&lt;br&gt;查询运单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TaA40GRXiTKMvjv4MpcQ-19" vertex="1" connectable="0">
           <mxGeometry x="-0.2941" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-21" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="TaA40GRXiTKMvjv4MpcQ-15" target="TaA40GRXiTKMvjv4MpcQ-5">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-21" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" source="TaA40GRXiTKMvjv4MpcQ-15" target="TaA40GRXiTKMvjv4MpcQ-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-550" y="-1440" as="sourcePoint" />
             <mxPoint x="-630" y="-1400" as="targetPoint" />
@@ -94,15 +97,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-22" value="返回结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TaA40GRXiTKMvjv4MpcQ-21">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-22" value="返回结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TaA40GRXiTKMvjv4MpcQ-21" vertex="1" connectable="0">
           <mxGeometry x="0.2457" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-23" value="结果为空" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#FFFFCC;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-23" value="结果为空" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#FFFFCC;" parent="1" vertex="1">
           <mxGeometry x="-900" y="-1400" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="TaA40GRXiTKMvjv4MpcQ-5" target="TaA40GRXiTKMvjv4MpcQ-12">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="TaA40GRXiTKMvjv4MpcQ-5" target="TaA40GRXiTKMvjv4MpcQ-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-690" y="-1060" as="sourcePoint" />
             <mxPoint x="-640" y="-1110" as="targetPoint" />
@@ -112,26 +115,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-25" value="遍历运单，发起取消" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TaA40GRXiTKMvjv4MpcQ-24">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-25" value="遍历运单，发起取消" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TaA40GRXiTKMvjv4MpcQ-24" vertex="1" connectable="0">
           <mxGeometry x="0.5929" y="-5" relative="1" as="geometry">
             <mxPoint x="-189" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-26" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="TaA40GRXiTKMvjv4MpcQ-13" target="TaA40GRXiTKMvjv4MpcQ-5">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-26" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" source="TaA40GRXiTKMvjv4MpcQ-13" target="TaA40GRXiTKMvjv4MpcQ-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-940" y="-1050" as="sourcePoint" />
             <mxPoint x="-890" y="-1100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-27" value="返回取消结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TaA40GRXiTKMvjv4MpcQ-26">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-27" value="返回取消结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TaA40GRXiTKMvjv4MpcQ-26" vertex="1" connectable="0">
           <mxGeometry x="0.5811" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-28" value="结果：&lt;br&gt;鉴权失败或&lt;br&gt;系统异常" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=40;fillColor=#FFFFCC;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="-900" y="-1100" width="790" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="TaA40GRXiTKMvjv4MpcQ-5" target="TaA40GRXiTKMvjv4MpcQ-29">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-30" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="TaA40GRXiTKMvjv4MpcQ-5" target="TaA40GRXiTKMvjv4MpcQ-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-680" y="-840" as="sourcePoint" />
             <mxPoint x="-630" y="-890" as="targetPoint" />
@@ -140,26 +140,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-31" value="保存取消结果，&lt;br&gt;重试状态为true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TaA40GRXiTKMvjv4MpcQ-30">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-31" value="保存取消结果，&lt;br&gt;重试状态为true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TaA40GRXiTKMvjv4MpcQ-30" vertex="1" connectable="0">
           <mxGeometry x="-0.2353" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="TaA40GRXiTKMvjv4MpcQ-5" target="TaA40GRXiTKMvjv4MpcQ-16">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-34" value="结果：&lt;br&gt;快手平台返回成功&lt;br&gt;或失败" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=40;fillColor=#FFFFCC;" parent="1" vertex="1">
+          <mxGeometry x="-900" y="-870" width="790" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-32" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="TaA40GRXiTKMvjv4MpcQ-5" target="TaA40GRXiTKMvjv4MpcQ-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-720" y="-690" as="sourcePoint" />
             <mxPoint x="-640" y="-700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-33" value="保存取消结果&lt;br&gt;重试状态为false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TaA40GRXiTKMvjv4MpcQ-32">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-33" value="保存取消结果&lt;br&gt;重试状态为false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TaA40GRXiTKMvjv4MpcQ-32" vertex="1" connectable="0">
           <mxGeometry x="-0.3561" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-34" value="结果：&lt;br&gt;快手平台返回成功&lt;br&gt;或失败" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=40;fillColor=#FFFFCC;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="-900" y="-870" width="790" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="TaA40GRXiTKMvjv4MpcQ-5" target="TaA40GRXiTKMvjv4MpcQ-18">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-35" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="TaA40GRXiTKMvjv4MpcQ-5" target="TaA40GRXiTKMvjv4MpcQ-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-690" y="-520" as="sourcePoint" />
             <mxPoint x="-640" y="-570" as="targetPoint" />
@@ -168,7 +168,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaA40GRXiTKMvjv4MpcQ-36" value="推送取消结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TaA40GRXiTKMvjv4MpcQ-35">
+        <mxCell id="TaA40GRXiTKMvjv4MpcQ-36" value="推送取消结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TaA40GRXiTKMvjv4MpcQ-35" vertex="1" connectable="0">
           <mxGeometry x="-0.7423" y="-3" relative="1" as="geometry">
             <mxPoint x="58" as="offset" />
           </mxGeometry>
