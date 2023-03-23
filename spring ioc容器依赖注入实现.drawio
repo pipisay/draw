@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T10:27:16.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="cVwICj5xI2e-ZuRY58qM" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-23T10:36:47.562Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="OnnSOwgs48RIh5RpKqoU" version="21.0.10" type="github">
   <diagram name="第 1 页" id="lUgvGcK6g5rGFBQgpwTD">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -61,83 +61,151 @@
         <mxCell id="8Lkxm9cinw2jtZtVXZmy-28" value="通过配置信息进行实例化、管理和组装bean" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4gBQaKOKPIN-fdI8Jq8a-1" target="4gBQaKOKPIN-fdI8Jq8a-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-30" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="770" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4gBQaKOKPIN-fdI8Jq8a-1" target="4gBQaKOKPIN-fdI8Jq8a-12">
-          <mxGeometry relative="1" as="geometry" />
+        <UserObject label="" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-39">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;container=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+            <mxGeometry x="1250" y="154" width="680" height="686" as="geometry">
+              <mxRectangle x="1250" y="154" width="50" height="40" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-34" value="" style="group" vertex="1" connectable="0" parent="4gBQaKOKPIN-fdI8Jq8a-39">
+          <mxGeometry x="89.81" y="43.63" width="551.7" height="596.37" as="geometry" />
         </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-1" value="扫描指定包下的类" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="970" y="140" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4gBQaKOKPIN-fdI8Jq8a-2" target="4gBQaKOKPIN-fdI8Jq8a-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-2" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="30" width="60" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4gBQaKOKPIN-fdI8Jq8a-4" target="4gBQaKOKPIN-fdI8Jq8a-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4gBQaKOKPIN-fdI8Jq8a-4" target="4gBQaKOKPIN-fdI8Jq8a-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-4" value="是否@Component&lt;br&gt;标识" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="120" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-6" value="忽略" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1390" y="145" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-8" value="存放类信息" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="260" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-10" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1335" y="135" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-11" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1255" y="215" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4gBQaKOKPIN-fdI8Jq8a-12" target="4gBQaKOKPIN-fdI8Jq8a-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-12" value="进行实例化" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="975" y="340" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4gBQaKOKPIN-fdI8Jq8a-14" target="4gBQaKOKPIN-fdI8Jq8a-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-14" value="遍历存放的类信息" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="340" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4gBQaKOKPIN-fdI8Jq8a-16" target="4gBQaKOKPIN-fdI8Jq8a-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-16" value="实例化" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="420" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4gBQaKOKPIN-fdI8Jq8a-18" target="4gBQaKOKPIN-fdI8Jq8a-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-18" value="遍历字段信息" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="490" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4gBQaKOKPIN-fdI8Jq8a-23" target="4gBQaKOKPIN-fdI8Jq8a-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4gBQaKOKPIN-fdI8Jq8a-23" target="4gBQaKOKPIN-fdI8Jq8a-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-23" value="是否&lt;br&gt;@Autowired标识" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1195" y="570" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-25" value="注入依赖" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1195" y="650" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-27" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="620" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-28" value="忽略" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="575" width="70" height="30" as="geometry" />
+        <UserObject label="扫描指定包下的类" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-34">
+            <mxGeometry y="86.31671052631579" width="70.42978723404254" height="31.387894736842103" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-3">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4gBQaKOKPIN-fdI8Jq8a-34" source="4gBQaKOKPIN-fdI8Jq8a-2" target="4gBQaKOKPIN-fdI8Jq8a-1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-2">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-34">
+            <mxGeometry x="17.607446808510634" width="35.21489361702127" height="39.23486842105263" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="是否@Component&lt;br&gt;标识" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-4">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-34">
+            <mxGeometry x="129.12127659574466" y="70.62276315789474" width="70.42978723404254" height="62.775789473684206" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-5">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4gBQaKOKPIN-fdI8Jq8a-34" source="4gBQaKOKPIN-fdI8Jq8a-1" target="4gBQaKOKPIN-fdI8Jq8a-4">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="忽略" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-6">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-34">
+            <mxGeometry x="246.50425531914894" y="90.24019736842105" width="41.08404255319148" height="23.540921052631578" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-7">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4gBQaKOKPIN-fdI8Jq8a-34" source="4gBQaKOKPIN-fdI8Jq8a-4" target="4gBQaKOKPIN-fdI8Jq8a-6">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="存放类信息" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-8">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-34">
+            <mxGeometry x="134.9904255319149" y="180.4803947368421" width="58.69148936170212" height="31.387894736842103" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-9">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4gBQaKOKPIN-fdI8Jq8a-34" source="4gBQaKOKPIN-fdI8Jq8a-4" target="4gBQaKOKPIN-fdI8Jq8a-8">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="N" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-10">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-34">
+            <mxGeometry x="214.22393617021268" y="82.39322368421053" width="30" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Y" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-11">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-34">
+            <mxGeometry x="167.2707446808511" y="145.16901315789474" width="30" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="进行实例化" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-12">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-34">
+            <mxGeometry x="2.9345744680851067" y="243.25618421052636" width="64.56063829787233" height="31.387894736842103" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-13">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4gBQaKOKPIN-fdI8Jq8a-34" source="4gBQaKOKPIN-fdI8Jq8a-1" target="4gBQaKOKPIN-fdI8Jq8a-12">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="遍历存放的类信息" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-14">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-34">
+            <mxGeometry x="134.9904255319149" y="243.25618421052636" width="58.69148936170212" height="31.387894736842103" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-20">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4gBQaKOKPIN-fdI8Jq8a-34" source="4gBQaKOKPIN-fdI8Jq8a-12" target="4gBQaKOKPIN-fdI8Jq8a-14">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="实例化" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-16">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-34">
+            <mxGeometry x="134.9904255319149" y="306.0319736842105" width="58.69148936170212" height="31.387894736842103" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-17">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4gBQaKOKPIN-fdI8Jq8a-34" source="4gBQaKOKPIN-fdI8Jq8a-14" target="4gBQaKOKPIN-fdI8Jq8a-16">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="遍历字段信息" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-18">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-34">
+            <mxGeometry x="134.9904255319149" y="360.9607894736842" width="58.69148936170212" height="31.387894736842103" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-19">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4gBQaKOKPIN-fdI8Jq8a-34" source="4gBQaKOKPIN-fdI8Jq8a-16" target="4gBQaKOKPIN-fdI8Jq8a-18">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="是否&lt;br&gt;@Autowired标识" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-23">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-34">
+            <mxGeometry x="132.05585106382978" y="423.73657894736834" width="64.56063829787233" height="31.387894736842103" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-24">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4gBQaKOKPIN-fdI8Jq8a-34" source="4gBQaKOKPIN-fdI8Jq8a-18" target="4gBQaKOKPIN-fdI8Jq8a-23">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="注入依赖" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-25">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-34">
+            <mxGeometry x="132.05585106382978" y="486.5123684210527" width="64.56063829787233" height="23.540921052631578" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-26">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4gBQaKOKPIN-fdI8Jq8a-34" source="4gBQaKOKPIN-fdI8Jq8a-23" target="4gBQaKOKPIN-fdI8Jq8a-25">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Y" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-27">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-34">
+            <mxGeometry x="164.33617021276592" y="462.971447368421" width="30" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="忽略" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-28">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-34">
+            <mxGeometry x="240.63510638297873" y="427.6600657894737" width="41.08404255319148" height="23.540921052631578" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="依赖注入，扫描包下的类，实例化，根据依赖关系组合" id="4gBQaKOKPIN-fdI8Jq8a-29">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4gBQaKOKPIN-fdI8Jq8a-34" source="4gBQaKOKPIN-fdI8Jq8a-23" target="4gBQaKOKPIN-fdI8Jq8a-28">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="4gBQaKOKPIN-fdI8Jq8a-40" value="依赖注入的实现，扫描指定包下的类，实例化，根据依赖关系进行组合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4gBQaKOKPIN-fdI8Jq8a-39">
+          <mxGeometry x="30.079999999999927" y="10" width="227" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
