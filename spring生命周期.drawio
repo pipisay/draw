@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-26T09:34:30.735Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="5MvoI4urMqsf7J6aj8Y0" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-26T09:45:22.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="qgXUn7thji5JyHVBRRaK" version="21.1.1" type="github">
   <diagram name="第 1 页" id="JuPUj2j9Y0bYAIlRyvc1">
     <mxGraphModel dx="2117" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,17 +136,10 @@
         <mxCell id="_ZTjJmJx-keD3RRCjtSV-27" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;postProcessBeanFactory&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;sketch=1;curveFitting=1;jiggle=2;fontColor=#0D0D0D;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="890" y="375" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_ZTjJmJx-keD3RRCjtSV-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;" edge="1" parent="1" source="_ZTjJmJx-keD3RRCjtSV-37" target="_ZTjJmJx-keD3RRCjtSV-40">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_ZTjJmJx-keD3RRCjtSV-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=oval;endFill=1;" edge="1" parent="1" source="_ZTjJmJx-keD3RRCjtSV-37" target="_ZTjJmJx-keD3RRCjtSV-44">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_ZTjJmJx-keD3RRCjtSV-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=oval;endFill=1;" edge="1" parent="1" source="_ZTjJmJx-keD3RRCjtSV-37" target="_ZTjJmJx-keD3RRCjtSV-46">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_ZTjJmJx-keD3RRCjtSV-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=oval;endFill=1;" edge="1" parent="1" source="_ZTjJmJx-keD3RRCjtSV-37" target="_ZTjJmJx-keD3RRCjtSV-47">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_ZTjJmJx-keD3RRCjtSV-37" target="_ZTjJmJx-keD3RRCjtSV-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="555" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_ZTjJmJx-keD3RRCjtSV-37" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Processor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="445" y="540" width="85" height="30" as="geometry" />
@@ -154,20 +147,8 @@
         <mxCell id="_ZTjJmJx-keD3RRCjtSV-39" value="for循环创建&lt;br&gt;所有processor对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="310" y="520" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_ZTjJmJx-keD3RRCjtSV-40" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;BeanPostProcessor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="605" y="532.5" width="175" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="_ZTjJmJx-keD3RRCjtSV-44" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;InstantiationAwareBean&lt;br&gt;PostProcessor&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="605" y="600" width="175" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="_ZTjJmJx-keD3RRCjtSV-46" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;MergedBeanDefinition&lt;br&gt;PostProcessor&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="605" y="660" width="175" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="_ZTjJmJx-keD3RRCjtSV-47" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;SmartInstantiation&lt;br&gt;AwareBeanPostProcessor&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="605" y="720" width="175" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="_ZTjJmJx-keD3RRCjtSV-51" value="&lt;font color=&quot;#0000ff&quot;&gt;工厂保存所有的增强器，方便后续创建bean的时候使用&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="455" y="482.5" width="150" height="50" as="geometry" />
+          <mxGeometry x="370" y="560" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_ZTjJmJx-keD3RRCjtSV-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ZTjJmJx-keD3RRCjtSV-52" target="_ZTjJmJx-keD3RRCjtSV-54">
           <mxGeometry relative="1" as="geometry" />
@@ -191,9 +172,6 @@
         </mxCell>
         <mxCell id="_ZTjJmJx-keD3RRCjtSV-57" value="getBeanNamesForType -&amp;gt; doGetBeanNameForType 遍历所有name&amp;nbsp;&lt;br&gt;通过名字获取RootBeanDefinition bean定义-&amp;gt; isTypeMatch -&amp;gt; 触发后置处理器的predictBeanType" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="840" width="540" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_ZTjJmJx-keD3RRCjtSV-58" value="&lt;font color=&quot;#0000ff&quot;&gt;这个处理器可以改变原始bean的类型&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="780" y="731.5" width="160" height="22" as="geometry" />
         </mxCell>
         <mxCell id="_ZTjJmJx-keD3RRCjtSV-59" value="&lt;font color=&quot;#0000ff&quot;&gt;注册所有监听器时，会第一次触发&lt;font style=&quot;font-size: 12px;&quot;&gt;SmartInstantiationAwarePostProcessor&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="815" width="320" height="40" as="geometry" />
@@ -376,6 +354,29 @@
         </mxCell>
         <mxCell id="_ZTjJmJx-keD3RRCjtSV-144" value="&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 20px;&quot;&gt;bean的生命周期，spring对bean的后置处理（增强）时机&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-320" y="155" width="230" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-148" value="" style="ellipse;whiteSpace=wrap;html=1;container=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="590" y="535" width="50" height="40" as="geometry">
+            <mxRectangle x="590" y="535" width="321" height="310" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-159" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;BeanPostProcessor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="_ZTjJmJx-keD3RRCjtSV-148">
+          <mxGeometry x="71" y="37.57575757575747" width="174" height="43.14636363636364" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-158" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;InstantiationAwareBean&lt;br&gt;PostProcessor&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="_ZTjJmJx-keD3RRCjtSV-148">
+          <mxGeometry x="68.98" y="102.45030303030303" width="181.02" height="38.45878787878788" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-156" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;MergedBeanDefinition&lt;br&gt;PostProcessor&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="_ZTjJmJx-keD3RRCjtSV-148">
+          <mxGeometry x="71" y="159.69696969696972" width="179" height="37.57575757575758" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_ZTjJmJx-keD3RRCjtSV-148" source="_ZTjJmJx-keD3RRCjtSV-157" target="_ZTjJmJx-keD3RRCjtSV-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-157" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;SmartInstantiation&lt;br&gt;AwareBeanPostProcessor&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="_ZTjJmJx-keD3RRCjtSV-148">
+          <mxGeometry x="71" y="216.06060606060606" width="179" height="37.57575757575758" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-58" value="&lt;font color=&quot;#0000ff&quot;&gt;这个处理器可以改变原始bean的类型&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_ZTjJmJx-keD3RRCjtSV-148">
+          <mxGeometry x="90" y="272.42424242424244" width="160" height="20.666666666666668" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
