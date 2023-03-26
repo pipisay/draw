@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-26T09:46:59.130Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="NAYSBR3A89upgPzscsDP" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-26T09:56:44.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="5-ZMng6Ogm3NbpWXdjbn" version="21.1.1" type="github">
   <diagram name="第 1 页" id="JuPUj2j9Y0bYAIlRyvc1">
-    <mxGraphModel dx="2117" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -337,7 +337,7 @@
         <mxCell id="_ZTjJmJx-keD3RRCjtSV-129" value="&lt;span style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;BeanPostProcessor.postProcessAfterInitialzation()&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;bean初始化之后的处理，可以替换之前的bean实例&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="858.13" y="2390" width="353.75" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_ZTjJmJx-keD3RRCjtSV-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ZTjJmJx-keD3RRCjtSV-133" target="_ZTjJmJx-keD3RRCjtSV-140">
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-176" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ZTjJmJx-keD3RRCjtSV-133" target="_ZTjJmJx-keD3RRCjtSV-175">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_ZTjJmJx-keD3RRCjtSV-133" value="&lt;span style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;initialzeBean组件初始化，之前的bean有可能被替换&lt;/b&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ed0c0c;" vertex="1" parent="1">
@@ -351,9 +351,6 @@
         </mxCell>
         <mxCell id="_ZTjJmJx-keD3RRCjtSV-139" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;return wrapperbean&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="760" y="2330" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_ZTjJmJx-keD3RRCjtSV-140" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;结束&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ed0c0c;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="640" y="2550" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_ZTjJmJx-keD3RRCjtSV-144" value="&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 20px;&quot;&gt;bean的生命周期，spring对bean的后置处理（增强）时机&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-320" y="155" width="230" height="280" as="geometry" />
@@ -380,6 +377,39 @@
         </mxCell>
         <mxCell id="_ZTjJmJx-keD3RRCjtSV-58" value="&lt;font color=&quot;#0000ff&quot;&gt;这个处理器可以改变原始bean的类型&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_ZTjJmJx-keD3RRCjtSV-148">
           <mxGeometry x="90" y="272.42424242424244" width="160" height="20.666666666666668" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-165" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;strokeColor=#FF8000;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1276" width="38.13" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-166" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;strokeColor=#FF8000;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="908.12" y="1390" width="38.13" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-167" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;strokeColor=#FF8000;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1691" width="38.13" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-168" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;strokeColor=#FF8000;fillColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1940" width="25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-169" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;strokeColor=#FF8000;fillColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="843.75" y="2045" width="25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-170" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;strokeColor=#FF8000;fillColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="850" y="2235" width="25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-171" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;strokeColor=#FF8000;fillColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="921.25" y="2310" width="25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-172" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;strokeColor=#FF8000;fillColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="845" y="2360" width="25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ZTjJmJx-keD3RRCjtSV-175" target="_ZTjJmJx-keD3RRCjtSV-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-175" value="使用bean" style="whiteSpace=wrap;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="630" y="2480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZTjJmJx-keD3RRCjtSV-177" value="销毁bean" style="whiteSpace=wrap;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="625" y="2550" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
