@@ -1,9 +1,134 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T10:11:56.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.7.4" etag="4K-KvJ8dSu57vEJDmkEO" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T10:32:22.278Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="4C35EDupnWWuVmHMTOE1" version="21.7.4" type="github">
   <diagram name="第 1 页" id="LORR4SFLs2q2GYRJ1Kx6">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.559;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-1" target="G3PUZL_0uWG9P7JHEBMm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-1" value="ApplicationContext" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.536;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-2" target="G3PUZL_0uWG9P7JHEBMm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-2" value="ResourcePatternResolver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-4" value="ResourceLoader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="410" y="50" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.532;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-5" target="G3PUZL_0uWG9P7JHEBMm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-5" value="DefaultResourceLoader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-8" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;I&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="450" y="55" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-9" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;I&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="260" y="125" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-10" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;I&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="205" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-13" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;c&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="125" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-14" value="Resource：资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="500" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-15" target="G3PUZL_0uWG9P7JHEBMm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-18" value="1.加载" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G3PUZL_0uWG9P7JHEBMm-17">
+          <mxGeometry x="0.4" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-15" value="ResourceLoader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC99FF;strokeColor=#CC99FF;" vertex="1" parent="1">
+          <mxGeometry x="610" y="500" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-19" target="G3PUZL_0uWG9P7JHEBMm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-19" value="DefaultResourceLoader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E5CCFF;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="820" y="500" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-21" target="G3PUZL_0uWG9P7JHEBMm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-21" value="WritableResource&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="460" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-22" target="G3PUZL_0uWG9P7JHEBMm-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-22" value="FileSystemResource&lt;br&gt;文件系统获取资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="430" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-23" target="G3PUZL_0uWG9P7JHEBMm-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-23" value="FileUrlResource&lt;br&gt;统一资源定位符" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="490" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-27" target="G3PUZL_0uWG9P7JHEBMm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-27" value="ContextResource&amp;nbsp;&lt;br&gt;web环境获取资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="530" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-29" target="G3PUZL_0uWG9P7JHEBMm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-29" value="HttpResource&lt;br&gt;网络中获取资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="590" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-31" target="G3PUZL_0uWG9P7JHEBMm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-31" value="AbstractResouce" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="640" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-33" target="G3PUZL_0uWG9P7JHEBMm-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-33" value="ByteArrayResource&lt;br&gt;从byte数组获取资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="630" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-34" target="G3PUZL_0uWG9P7JHEBMm-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-34" value="InputStreamResource&lt;br&gt;从input流获取资源&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="690" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-37" value="spring可以从任何地方拿到资源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="550" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-40" value="策略模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=#FF0000;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="640" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-41" target="G3PUZL_0uWG9P7JHEBMm-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-41" value="ClassRelativeResourceLoader :读取类路径的资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="460" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-43" target="G3PUZL_0uWG9P7JHEBMm-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-43" value="FileSystemResourceLoader :读取文件系统的资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="510" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="G3PUZL_0uWG9P7JHEBMm-44" target="G3PUZL_0uWG9P7JHEBMm-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3PUZL_0uWG9P7JHEBMm-44" value="ServletContextResourceLoader :读取文件系统的资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="570" width="280" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
